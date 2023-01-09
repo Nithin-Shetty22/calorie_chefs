@@ -1,5 +1,5 @@
 {
-  "homepage": "https://nithin-shetty22.github.io/calorie_chefs", 
+  "homepage": "https://nithin-shetty22.github.io/calorie_chefs",
   "name": "calorie_chefs",
   "version": "0.1.0",
   "private": true,
@@ -42,6 +42,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.2.3"
   }
 }
