@@ -4,12 +4,14 @@ import {BiRestaurant} from 'react-icons/bi';
 import {Container} from '../../Globalstyles';
 
 
+
+
 export const Nav = styled.nav` 
 font-size: 18px;
 position: sticky;
 top: 0;
 z-index: 999;
-height: 80px;
+height: 10rem;
 background-color: rgba(0, 0, 0, 0.5);
 /* box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5); */
 box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
@@ -145,5 +147,29 @@ height: 100%;
 width: 100%;
 border: none;
 outline: none;
-
 `;
+
+export const Img = styled.img`
+height: 10rem;
+transition: all .5s ease;
+
+&:hover {
+    transform: scale(1.06) rotate(360deg);
+}
+
+@media only screen and (max-width: 1000px){
+    height: 9rem;
+}
+
+@media only screen and (max-width: 400px){
+    height:8rem;
+}
+`;
+
+export const BackgroundLogo = styled.div`
+background: #FFFFFF;
+align-items: center;
+border-radius: 50%;
+display:flex;
+margin-right:5px;
+`

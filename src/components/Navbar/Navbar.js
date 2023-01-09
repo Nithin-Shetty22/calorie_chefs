@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import { IconContext } from "react-icons";
 import { BiMenu, BiX } from "react-icons/bi";
 import {Button} from '../../Globalstyles';
+import Logo from '../../images/caloriechef.png';
 import 
 {
     Nav,
@@ -14,6 +15,8 @@ import
     MenuLink,
     MenuItemBtn,
     MenuLinkBtn,
+    Img,
+    BackgroundLogo
 } from './Navbar.styles';
 const Navbar = () => {
     const [click, setClick] = useState(false);
@@ -39,10 +42,13 @@ const Navbar = () => {
             <IconContext.Provider value={{ color: '#fff'}}>
                 <Nav>
                     <NavbarContainer>
+                       
                         <NavLogo to="/">
-                            <NavIcon/>
-                            Home Made
+                        <BackgroundLogo>
+                        <Img src={Logo} alt="Logo"/></BackgroundLogo>
+                            Calorie Chef
                         </NavLogo>
+                        
                         <MenuIcon onClick={handleClick}>
                             {click ? <BiX/> : <BiMenu/>}
                         </MenuIcon>
