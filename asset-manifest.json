@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.js": "/calorie_chefs/static/js/main.de271090.chunk.js",
+    "main.js.map": "/calorie_chefs/static/js/main.de271090.chunk.js.map",
+    "runtime-main.js": "/calorie_chefs/static/js/runtime-main.2de1cab1.js",
+    "runtime-main.js.map": "/calorie_chefs/static/js/runtime-main.2de1cab1.js.map",
+    "static/js/2.c379e130.chunk.js": "/calorie_chefs/static/js/2.c379e130.chunk.js",
+    "static/js/2.c379e130.chunk.js.map": "/calorie_chefs/static/js/2.c379e130.chunk.js.map",
+    "index.html": "/calorie_chefs/index.html",
+    "static/js/2.c379e130.chunk.js.LICENSE.txt": "/calorie_chefs/static/js/2.c379e130.chunk.js.LICENSE.txt",
+    "static/media/Big-chicken.bd4ea7bc.svg": "/calorie_chefs/static/media/Big-chicken.bd4ea7bc.svg",
+    "static/media/Chicken.064707cc.svg": "/calorie_chefs/static/media/Chicken.064707cc.svg",
+    "static/media/Italian-pizza.0b878076.svg": "/calorie_chefs/static/media/Italian-pizza.0b878076.svg",
+    "static/media/Pasta.7457f5a2.svg": "/calorie_chefs/static/media/Pasta.7457f5a2.svg",
+    "static/media/caloriechef.d37e0ea5.png": "/calorie_chefs/static/media/caloriechef.d37e0ea5.png",
+    "static/media/hero-bg.71d13569.png": "/calorie_chefs/static/media/hero-bg.71d13569.png",
+    "static/media/pizza.4b4c4dec.png": "/calorie_chefs/static/media/pizza.4b4c4dec.png",
+    "static/media/salad.1c6cb1f6.png": "/calorie_chefs/static/media/salad.1c6cb1f6.png",
+    "static/media/salmon.a873ba35.png": "/calorie_chefs/static/media/salmon.a873ba35.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2de1cab1.js",
+    "static/js/2.c379e130.chunk.js",
+    "static/js/main.de271090.chunk.js"
+  ]
+}
