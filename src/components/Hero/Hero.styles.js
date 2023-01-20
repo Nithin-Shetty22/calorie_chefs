@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 import ImgBg from '../../images/hero-bg.png';
+import {FaPhone
+} from 'react-icons/fa';
 
 export const HeroContainer = styled.div`
 background-image: linear-gradient( to top right, rgba(11, 10, 10, 0.38), rgba(11, 10, 10, 0.19)), url(${ImgBg});
@@ -77,8 +79,12 @@ padding: 2.5rem 2rem;
 }
 `;
 
-export const HeroBtn = styled(Link)`
+export const HeroBtn = styled.a`
 text-decoration: none;
 outline: none;
 border: none;
+`;
+
+export const WorksIcon1 = styled(FaPhone)`
+color: #333;
 `;

@@ -1,19 +1,30 @@
 import styled from 'styled-components';
 import {Container} from '../../Globalstyles';
 import {Link} from 'react-router-dom';
-
+import {SiGooglemaps} from 'react-icons/si';
+import {FaPhone
+} from 'react-icons/fa';
 export const FooterSection = styled.section`
 display: flex;
 align-items: center;
+flex-direction: column;
 color: #fff;
 background-color: #333;
+padding: 5rem 0rem;
 `;
 
+export const FooterRow=styled.div`
+display: flex;
+@media only screen and (max-width: 900px) {
+    flex-direction: column;
+    align-items: center;
+}
+`;
 export const FooterContainer = styled(Container)`
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 5rem 10rem;
+
 
 ${Container}
 `;
@@ -157,4 +168,81 @@ margin-top: 3rem;
 &:hover {
     color: #E38B06;
 }
+`;
+
+export const FooterHeading=styled.h1`
+margin-bottom: 1rem;
+text-align: center;
+color: #fff
+`;
+
+export const BackgroundLogo = styled.div`
+background: #FFFFFF;
+align-items: center;
+border-radius: 50%;
+margin-right:5px;
+// height:25%;
+`;
+export const Img = styled.img`
+height: 10rem;
+transition: all .5s ease;
+
+&:hover {
+    transform: scale(1.06) rotate(360deg);
+}
+
+@media only screen and (max-width: 1000px){
+    height: 9rem;
+}
+
+@media only screen and (max-width: 400px){
+    height:8rem;
+}
+`;
+
+export const Footerleft=styled.div`
+display: flex;
+flex-direction: column;
+// align-items: center;
+padding: 0rem 0rem;
+`;
+
+export const MapImageContainer=styled.div`
+display: flex;
+// align-items: center;
+
+`;
+
+export const MapIcon=styled(SiGooglemaps)`
+color:FF0000;
+font-size: 6rem;`;
+
+export const NameSpan=styled.span`
+font-size: 2.5rem;
+font-weight: 800;
+`;
+
+export const Navigationtag=styled.a`
+text-decoration: none;
+outline: none;
+color: #fff;
+margin-top: 3rem;
+font-size: 2.5rem;
+font-weight: 400;
+&:hover {
+    color: #E38B06;
+}`;
+
+export const FooterRight=styled.div`
+display: flex;
+flex-direction: column;
+`;
+
+export const PhoneIcon1 = styled(FaPhone)`
+color: #fff;
+`;
+
+export const SocialIcons=styled.img`
+height:4rem;
+width:4rem;
 `;

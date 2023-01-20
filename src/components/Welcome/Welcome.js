@@ -31,10 +31,7 @@ const Welcome = () => {
                         </WelcomeText>
                     </WelcomeContentText>
                 </WelcomeContent>
-                
-
             </WelcomeContainer>
-            
         </div>
     )
 }

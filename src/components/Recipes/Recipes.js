@@ -41,10 +41,10 @@ import {
 } from './Recipes.styles';
 const Recipes = () => {
     return (
-        <div>
+        <div id="menu">
             <RecipeWrapper>
                 <RecipeContainer>
-                    <RecipeTitle>Recipes</RecipeTitle>
+                    <RecipeTitle>Menu</RecipeTitle>
                     <RecipeContentContainer>
                         <RecipeTabContainer>
                             <RecipeBtn to='/sea-food'>

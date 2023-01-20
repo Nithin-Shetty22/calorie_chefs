@@ -7,66 +7,76 @@ import {
     FooterNewsletterForm,
     FooterNewsletterInput,
     FooterBtn,
-    FooterLinkContainer,
-    FooterLinksWrapper,
-    FooterLinks,
-    FooterLinkTitle,
-    FooterLink,
     FooterCopyRight,
-    FooterLabel
+    FooterLabel,
+    FooterHeading,
+    FooterRow,
+    Img,
+    BackgroundLogo,
+    Footerleft,
+    MapImageContainer,
+    MapIcon,
+    NameSpan,
+    Navigationtag,
+    PhoneIcon1,
+    SocialIcons
 } from './Footer.styles';
+import Logo from '../../images/caloriechef.png';
+import Youtube from '../../images/youtube.png' ;
+import Instagram from '../../images/insta.png';
+import Facebook from '../../images/fb.png';
+import Twitter from '../../images/twitter.png';
+
+
 function Footer() {
     return (
-        <div>
+        <div id='Footer'>
             <FooterSection>
-                <FooterContainer>
-                    <FooterNewsletter>
-                        <FooterNewsletterTitle>Join our listing for execlusive discounts and new recipes</FooterNewsletterTitle>
-                        <FooterNewsletterText>We create new recipes every week and cooking tips</FooterNewsletterText>
-                        <FooterNewsletterForm>
-                            <FooterLabel htmlFor="email">Email address</FooterLabel>
-                           <FooterNewsletterInput name="email" id="email" type="email" placeholder="Email address" />
-                           <FooterBtn>Submit</FooterBtn>
-                        </FooterNewsletterForm>
-                    </FooterNewsletter>
-                    <FooterLinkContainer>
-                        <FooterLinksWrapper>
-                            <FooterLinks>
-                                <FooterLinkTitle>About Us</FooterLinkTitle>
-                                <FooterLink to='/'>Our Chefs</FooterLink>
-                                <FooterLink to='/'>Our Farm</FooterLink>
-                                <FooterLink to='/'>Testimonials</FooterLink>
-                                <FooterLink to='/'>Terms of service</FooterLink>
-                            </FooterLinks>
-                            <FooterLinks>
-                                <FooterLinkTitle>Services</FooterLinkTitle>
-                                <FooterLink to='/about'>How it works</FooterLink>
-                                <FooterLink to='/'>Meal prep kit</FooterLink>
-                                <FooterLink to='/'>Gift cards</FooterLink>
-                                <FooterLink to='/'>Orders</FooterLink>
-                            </FooterLinks>
+            <FooterHeading>CONTACT US</FooterHeading>
+<FooterRow>
+    <Footerleft>
+        <MapImageContainer>
+        <BackgroundLogo>
+                        <Img src={Logo} alt="Logo"/></BackgroundLogo>
+                           <NameSpan>Calorie Chef</NameSpan> 
+        </MapImageContainer>
+        <MapImageContainer>
+            <Navigationtag href='tel://9972781328/'><PhoneIcon1/> 9972781328</Navigationtag>
+        </MapImageContainer>
+    </Footerleft>
 
-                        </FooterLinksWrapper>
-                        <FooterLinksWrapper>
-                            <FooterLinks>
-                                <FooterLinkTitle>Resources</FooterLinkTitle>
-                                <FooterLink to='/'>Kitchenware</FooterLink>
-                                <FooterLink to='/'>Recipes</FooterLink>
-                                <FooterLink to='/'>FAQ &amp; Support</FooterLink>
-                                <FooterLink to='/'>Affiliate Program</FooterLink>
-                            </FooterLinks>
-                            <FooterLinks>
-                                <FooterLinkTitle>Contact</FooterLinkTitle>
-                                <FooterLink to='/'>Instagram</FooterLink>
-                                <FooterLink to='/'>Facebook</FooterLink>
-                                <FooterLink to='/'>Youtube</FooterLink>
-                                <FooterLink to='/'>Linkedin</FooterLink>
-                            </FooterLinks>
-                            
-                        </FooterLinksWrapper>
-                    </FooterLinkContainer>
-                    <FooterCopyRight to='https://github.com/muchirijane'> &copy; Copyright 2020, Designed and coded with 💛 by Jane Tracy</FooterCopyRight>
-                </FooterContainer>
+                        
+                        
+<FooterContainer>
+               
+               <FooterNewsletter>
+                   <FooterNewsletterTitle>Join our listing for execlusive discounts and new recipes</FooterNewsletterTitle>
+                   <FooterNewsletterText>We create new recipes every week and cooking tips</FooterNewsletterText>
+                   <FooterNewsletterForm>
+                       <FooterLabel htmlFor="email">Email address</FooterLabel>
+                      <FooterNewsletterInput name="email" id="email" type="email" placeholder="Email address" />
+                      <FooterBtn>Submit</FooterBtn>
+                   </FooterNewsletterForm>
+               </FooterNewsletter>
+              
+              
+           </FooterContainer>
+
+               <Footerleft>
+                <MapImageContainer>
+                <MapIcon/><h4>We are located at<br/>
+<bold>Hyderabad</bold><br/>
+<Navigationtag href='mailto://caloriechef1@gmail.com/'>caloriechef1@gmail.com</Navigationtag>
+</h4>
+                </MapImageContainer>
+                <br/>
+                <MapImageContainer>
+                    
+                <a href='https://www.youtube.com/channel/UCRW2UX7zP-hv16YtRqS6N1g' target='_blank'><SocialIcons src={Youtube} alt="Logo"/></a><a href='https://www.instagram.com/caloriechef_/' target='_blank'><SocialIcons src={Instagram} alt="Logo"/></a><a href='https://www.facebook.com/profile.php?id=100089113028038' target='_blank'><SocialIcons src={Facebook} alt="Logo"/></a><a href='https://www.twitter.com/Caloriechef1' target='_blank'><SocialIcons src={Twitter} alt="Logo"/></a>
+                </MapImageContainer>
+               </Footerleft>
+</FooterRow>
+<FooterCopyRight> &copy; Copyright 2023, Calorie Chef.</FooterCopyRight> 
             </FooterSection>
             
         </div>

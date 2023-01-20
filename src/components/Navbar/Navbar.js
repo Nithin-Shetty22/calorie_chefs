@@ -3,6 +3,7 @@ import { IconContext } from "react-icons";
 import { BiMenu, BiX } from "react-icons/bi";
 import {Button} from '../../Globalstyles';
 import Logo from '../../images/caloriechef.png';
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import 
 {
     Nav,
@@ -61,13 +62,13 @@ const Navbar = () => {
                                 <MenuLink onClick={closeMenu} to="/about">About</MenuLink>
                             </MenuItem>
                             <MenuItem>
-                                <MenuLink onClick={closeMenu} to="/recipe">Recipes</MenuLink>
+                                <MenuLink onClick={closeMenu} href='#menu'>Menu</MenuLink>
                             </MenuItem>
                             <MenuItemBtn>
                                 {button?(
-                                    <MenuLinkBtn to="/order-now">
+                                    <MenuLink  href='#Footer'>
                                         <Button primary>Order Now</Button>
-                                    </MenuLinkBtn>
+                                    </MenuLink>
                                 ): (
                                     <MenuLinkBtn to="/order-now">
                                         <Button primary bigFont onClick={closeMenu}>Order Now</Button>

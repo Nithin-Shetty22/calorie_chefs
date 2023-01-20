@@ -3,8 +3,8 @@ import {Works, Welcome, Recipes, Meals} from '../../components';
 function Home() {
     return (
         <div>
-            <Works/>
             <Welcome/>
+            <Works/>
             <Recipes/>
             <Meals/>
         </div>

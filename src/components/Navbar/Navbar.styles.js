@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import {BiRestaurant} from 'react-icons/bi';
 import {Container} from '../../Globalstyles';
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 
 
@@ -96,7 +97,7 @@ height: 80px;
 }
 `;
 
-export const MenuLink = styled(Link)`
+export const MenuLink = styled(AnchorLink)`
 text-decoration: none;
 font-weight: bold;
 font-size: 2rem;

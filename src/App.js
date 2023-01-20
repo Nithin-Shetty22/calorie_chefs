@@ -10,12 +10,13 @@ function App() {
     <Router>
       <GlobalStyles/>
       <Hero/>
-      <Switch>
+      {/* <Switch>
         <Route exact path="/" component={Home}/>
         <Route exact path="/about" component={About}/>
         <Route exact path="/recipe" component={Recipe}/>
         <Route exact path="/order-now" component={Order}/>
-      </Switch>
+      </Switch> */}
+      <Home/>
       <Footer/>
     </Router>
   );

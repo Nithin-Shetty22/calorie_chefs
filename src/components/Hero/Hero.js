@@ -1,5 +1,6 @@
 import Navbar from '../Navbar/Navbar';
 import {Button} from '../../Globalstyles';
+
 import {
     HeroContainer,
     HeroContent,
@@ -9,7 +10,7 @@ import {
     HeroSubTitle,
     HeroText,
     HeroBtn,
-
+    WorksIcon1
 } from './Hero.styles';
 
 const Hero = () =>{
@@ -28,8 +29,8 @@ const Hero = () =>{
                             Get a fresh and tasty recepies that are well balanced and 
                             will improve your wellness, plus add nutrients to your body.
                         </HeroText>
-                        <HeroBtn to="/order-now">
-                           <Button primary big bigFont bigRadius>Pick your meals</Button>
+                        <HeroBtn href='tel://9972781328/'>
+                           <Button primary big bigFont bigRadius><WorksIcon1/> 9972781328</Button>
                         </HeroBtn>
                    </HeroContentText>
                </HeroContent>
